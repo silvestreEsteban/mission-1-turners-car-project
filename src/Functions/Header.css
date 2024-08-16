@@ -1,0 +1,115 @@
+:root {
+    --turners-blue: #0073cf;
+}
+
+.header {
+    height: 150px;
+    width: 100vw;
+    top: 0;
+    position: absolute;
+    background-color: white;
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.header-button {
+    background-color: white;
+    color: var(--turners-blue);
+    outline: none;
+    border: none;
+    border-right: 1px solid grey;
+    border-radius: 0;
+    margin-top: 10px;
+    font-size: 13px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header-button:hover {
+    color: black;
+}
+
+#header-button-last {
+    border: none;
+}
+
+#img {
+    width: 220px;
+    height: 60px;
+    cursor: pointer;
+    margin-left: 26.5%;
+    margin-top: 20px;
+
+}
+
+#img:hover {
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 2200px) {
+    #img {
+        margin-left: 20%;
+    }
+}
+
+.center-buttons-header {
+    margin-right: 20%;
+    display: flex;
+
+
+}
+
+#or {
+    color: dimgray;
+    font-style: italic;
+    margin-top: 34px;
+    font-size: 12px;
+    margin-left: -5px;
+    margin-right: 2px;
+}
+
+.buttons-right-side-container {
+    width: 100vw;
+    height: 150px;
+    top: 0px;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header-button-second-set {
+    background-color: white;
+    color: black;
+    border: none;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+#btn1,
+#btn2 {
+    color: var(--turners-blue);
+    width: 70px;
+    font-size: 12px;
+}
+
+.header-button-second-set:hover {
+    color: red;
+}
+
+#btn1:hover,
+#btn2:hover {
+    color: red;
+}
+
+.top-buttons:focus,
+.center-buttons-header:focus,
+.buttons-right-side-container:focus,
+.header-button-second-set:focus {
+    outline: none;
+}

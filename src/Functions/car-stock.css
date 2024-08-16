@@ -1,0 +1,294 @@
+:root {
+    --turners-blue: #0073cf;
+}
+
+/* Parent div size and positioning */
+
+.parent-div-for-car-stock {
+    width: 1360px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* Text above buttons */
+
+.info-on-cars {
+    width: 1360px;
+    height: 160px;
+    margin: 0 auto;
+    color: rgb(42, 40, 40)
+}
+
+.info-on-cars p {
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 8px;
+    margin-top: -5px;
+}
+
+.info-on-cars a:hover {
+    color: rgb(240, 44, 44)
+}
+
+.info-on-cars h2 {
+    padding-left: 10px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/*   parent-div for all content inside the car info page   */
+
+.car-stock {
+    width: 1302px;
+    height: 600px;
+    margin: 0 auto;
+    border: 10px solid var(--turners-blue);
+
+}
+
+
+/* buttons above car info page */
+
+
+.toggle-buttons-car-stock {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1323px;
+
+}
+
+.toggle-buttons {
+    width: 645px;
+    height: 60px;
+    border: 4px solid var(--turners-blue);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 22px;
+    text-align: start;
+
+}
+
+.toggle-buttons:hover,
+.toggle-buttons:focus {
+    outline: none;
+    border: 4px solid var(--turners-blue);
+}
+
+#toggle-btn1 {
+    left: 0;
+    background-color: var(--turners-blue);
+    color: white;
+
+}
+
+#toggle-btn2 {
+    right: 0;
+    background-color: white;
+    color: var(--turners-blue);
+}
+
+#toggle-btn1-toggled {
+    left: 0;
+    background-color: white;
+    color: var(--turners-blue);
+}
+
+#toggle-btn2-toggled {
+    background-color: var(--turners-blue);
+    color: white;
+    right: 0;
+}
+
+/*  All the car icons  */
+
+.car-icons {
+    width: 65%;
+    height: 50%;
+    border-right: 1px solid black;
+    margin: 25px 0 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+.icon {
+    width: 160px;
+    height: 60px;
+    padding: 10px;
+}
+
+.car-icons-span {
+    color: var(--turners-blue);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#convertible-icon-checkbox {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+#car-icon-2 {
+    height: 60px;
+    margin-top: 10px;
+
+}
+
+#wagon-icon-checkbox {
+    margin-top: -14px;
+    position: absolute;
+}
+
+#input-for-wagon {
+    position: relative;
+    left: 30px;
+    top: -20px
+}
+
+#wagon-input {
+    margin-top: 10px;
+    position: absolute;
+}
+
+#ute-icon {
+    margin-top: 5px;
+    height: 80px;
+}
+
+#ute-span {
+    margin-top: -10px;
+    position: relative
+}
+
+#ute-input {
+    margin-top: -14px;
+    position: absolute;
+    margin-left: 20px;
+}
+
+#coupe-input {
+    margin-top: -8px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+#coupe-img {
+    margin-top: 10px;
+}
+
+/* div size and positioning */
+
+.type-of-vehicle-div {
+    width: 31%;
+    height: 40%;
+    position: absolute;
+    margin-left: 862px;
+    margin-top: -300px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(42, 40, 40);
+}
+
+.type-of-vehicle-div input,
+select {
+    width: 90%;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: white;
+    height: 30px;
+    color: rgb(42, 40, 40);
+    font-size: 18px;
+    border: 1px solid rgb(132, 128, 128);
+}
+
+.type-of-vehicle-div input:focus,
+select:focus {
+    outline: none;
+    border: 2px solid black;
+}
+
+.type-of-vehicle-div input:hover,
+select:hover {
+    outline: none;
+    border: 2px solid black;
+}
+
+.type-of-vehicle-div label {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#make-span {
+    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+}
+
+#make {
+    margin-top: -2px;
+    width: 92%;
+    height: 35px
+}
+
+#model-span {
+    margin-top: 55px;
+    position: absolute;
+    width: 100%;
+}
+
+#model {
+    width: 92%;
+    height: 35px;
+    margin-top: -2px;
+}
+
+.vehicle-info {
+    width: 98%;
+    height: 55px;
+    border: 2px solid black;
+    margin: 55px auto;
+}
+
+.popular-options {
+    width: 98%;
+    height: 150px;
+    border: 2px solid black;
+    margin: 0 auto;
+    margin-top: -50px;
+
+}
+
+.checkbox {
+    accent-color: white;
+    cursor: pointer;
+}
+
+#year-span {
+    position: absolute;
+    margin-top: 150px;
+}
+
+#year-first-label {
+    position: absolute;
+    margin-top: -20px;
+}
+
+#inline {
+    display: inline-flex;
+}
+
+#year-first,
+#year-second {
+    width: 165px;
+    height: 35px;
+}
+
+#year-second-label {
+    margin-top: 13px;
+    font-weight: 700;
+}

@@ -1,0 +1,36 @@
+:root {
+    --turners-blue: #0073cf
+}
+
+.navbar {
+    height: 50px;
+    width: 100vw;
+    background-color: var(--turners-blue);
+    margin-top: 149px;
+    top: 0;
+    position: sticky;
+    z-index: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar-first-set-button,
+.navbar-second-set-button {
+    font-size: 12px;
+    border: none;
+    background-color: var(--turners-blue);
+    height: 50px;
+    border-radius: 0;
+    outline: none;
+}
+
+.navbar-first-set-button:hover,
+.navbar-second-set-button:hover {
+    background-color: #005e91;
+}
+
+.navbar-first-set-button:focus,
+.navbar-second-set-button:focus {
+    outline: none;
+}
