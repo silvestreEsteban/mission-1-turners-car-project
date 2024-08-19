@@ -2,6 +2,7 @@ import './car-stock.css'
 import { useState } from 'react'
 import CarForms from './CarForms'
 import CarIcons from './CarIcons'
+import VehicleInfo from './VehicleInfo'
 
 export default function CarStock() {
     const [leftButton, setLeftButton] = useState(false)
@@ -24,14 +25,10 @@ export default function CarStock() {
              </div>
              <div className='car-stock'>
                 <CarIcons />
-
-            {/* CAR ICONS DIV COMPLETE - MOVING ON TO FORMS (COMPONENT) */}
-               
-               <CarForms />
-                            
- 
+            {/* CAR ICONS DIV COMPLETE - MOVING ON TO FORMS (COMPONENT) */}              
+               <CarForms />                       
                 {/* SECOND DIV */}
-                <div className='vehicle-info'></div>
+                <VehicleInfo />
                 <div className='popular-options'></div>
              </div>
         </div>

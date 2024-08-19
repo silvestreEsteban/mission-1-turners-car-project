@@ -1,0 +1,84 @@
+:root {
+    --turners-blue: #0073cf;
+}
+
+.uploading-image-parent-div {
+    width: 1340px;
+    height: 800px;
+    border-bottom: 2px solid black;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+
+.title-and-info {
+    width: 1300px;
+    height: 150px;
+    border-bottom: 2px solid rgb(42, 42, 40);
+    margin: 30px auto;
+    color: rgb(42, 42, 40);
+    font-family: monospace;
+    text-align: center;
+
+}
+
+.div-for-uploading-file {
+    width: 1300px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+#file-input {
+    width: 80%;
+    height: 35px;
+    font-family: monospace;
+    margin: 0px auto;
+    outline: none;
+    border: 1px solid rgb(42, 42, 40);
+    background-color: white;
+    color: black;
+
+}
+
+#submit-button {
+    width: 150px;
+    margin-left: 10px;
+    height: 37px;
+    position: absolute;
+    margin-top: 3px;
+    background-color: var(--turners-blue);
+    font-family: monospace;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.showcase-info {
+    width: 1300px;
+    height: 450px;
+    margin: 0 auto;
+
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#image-preview {
+    min-height: 450px;
+    min-width: 800px;
+    max-width: 800px;
+    max-height: 450px;
+}
+
+.showcase-info-data {
+    width: 480px;
+    height: 450px;
+
+    border-left: 1px solid rgb(42, 42, 40);
+    color: rgb(42, 42, 40);
+    font-family: monospace;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

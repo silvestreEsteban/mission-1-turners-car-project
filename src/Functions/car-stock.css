@@ -250,8 +250,10 @@ select:hover {
 .vehicle-info {
     width: 98%;
     height: 55px;
-    border: 2px solid black;
     margin: 55px auto;
+    color: rgb(42, 40, 40);
+    display: flex;
+
 }
 
 .popular-options {
@@ -291,4 +293,64 @@ select:hover {
 #year-second-label {
     margin-top: 13px;
     font-weight: 700;
+}
+
+#first-inputs,
+#second-inputs,
+#third-input,
+#fourth-input {
+    display: flex;
+    flex-direction: row;
+}
+
+
+#label-for-odometer {
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 20px
+}
+
+#label-for-price {
+    margin-top: -15px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+#any-km-to-any-km,
+#any-price-to-any-price {
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+
+#odometer,
+#odometer-2,
+#price,
+#price-2 {
+    width: 120px;
+}
+
+
+
+#location {
+    width: 250px;
+    margin-left: 60px;
+}
+
+#label-for-location {
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -15px;
+
+}
+
+#sale-method {
+    width: 250px;
+    margin-left: 60px;
+}
+
+#label-for-sale-method {
+    position: absolute;
+    margin-top: -15px;
+    margin-left: 60px;
 }

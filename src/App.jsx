@@ -8,9 +8,13 @@ import './Functions/Main-section.css'
 
 
 
+
 function App() {
+
+  
 return (
   <>
+
 <div className="main-page-layout">
   <Header />
   <Navbar />
