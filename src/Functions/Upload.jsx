@@ -1,6 +1,7 @@
 import './Upload.css'
 import { useState, useRef } from 'react'
 const API_KEY = import.meta.env.VITE_VISION_PREDICTION_KEY
+const ENDPOINT = import.meta.env.VITE_VISION_PREDICTION_ENDPOINT
 
 
 
@@ -35,11 +36,11 @@ const ImageUploader = () => {
             const arrayBuffer = event.target.result;
 
             fetch(
-                `https://mission1aivisiontool-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/9a7ceb12-0515-40d6-b785-b50c0eac7e16/classify/iterations/Iteration4/image`,
+                ENDPOINT,
                 {
                     method: "POST",
                     headers: {
-                        "Prediction-Key": {API_KEY},
+                        "Prediction-Key": API_KEY,
                         "Content-Type": "application/octet-stream",
                     },
                     body: arrayBuffer // Use the arrayBuffer as the body
