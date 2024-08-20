@@ -40,10 +40,7 @@ export default function CarStock() {
 
     const [leftButton, setLeftButton] = useState(false)
     const [rightButton, setRightButton] = useState(false)
-    const toggleButton = () => {
-    setLeftButton(!leftButton)
-    setRightButton(!rightButton)
-    }    
+       
     return (
         <>
 
