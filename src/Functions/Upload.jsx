@@ -73,7 +73,7 @@ const ImageUploader = () => {
             <div className='uploading-image-parent-div'>
                 <div className='title-and-info'>
                     <h1 id='insurance-header'>Vehicle Insurance</h1>
-                    <p id='insurance-paragraph'>Here at Turner's we are passionate about providing an honest and affordable insurance service. Please feel welcome to utilize our image recognition software to gauge what your insurance premium will look like.</p>
+                    <p id='insurance-paragraph'>Here at Turner`s we are passionate about providing an honest and affordable insurance service. Please feel welcome to utilize our image recognition software to gauge what your insurance premium will look like.</p>
                 </div>
                 <div className='div-for-uploading-file'>
                     <form onSubmit={handleSubmit} method='post'>

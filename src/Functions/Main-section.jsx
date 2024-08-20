@@ -1,6 +1,8 @@
 import Slider from "./Slider"
 import CarStock from './Car-stock'
 import ImageUploader from "./Upload"
+import FinalSection from "./FinalSection"
+import Footer from "./Footer"
 
 export default function MainSection() {
     return (
@@ -9,6 +11,8 @@ export default function MainSection() {
             <Slider />
             <CarStock />
             <ImageUploader />
+            <FinalSection />
+            <Footer />
         </div>
         </>
     )

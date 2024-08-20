@@ -1,0 +1,37 @@
+.final-section-parent-div {
+    width: 1360px;
+    height: 300px;
+    margin-top: 200px;
+    background-color: rgb(155, 153, 153);
+    display: flex;
+
+}
+
+.div-group {
+    width: 25%;
+    height: 100%;
+    color: rgb(237, 234, 234);
+    font-family: monospace;
+
+}
+
+.div-group p {
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.div-group a {
+    color: rgb(237, 234, 234);
+}
+
+.div-group a:hover {
+    color: rgb(57, 56, 56);
+    transition: 0.8s ease;
+}
+
+.div-header {
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 28px;
+}
