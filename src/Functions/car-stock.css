@@ -31,10 +31,10 @@
 
 #hidden-div-visible {
     position: absolute;
-    width: 1302px;
+    width: 1303px;
     height: 600px;
     margin-left: 19px;
-    margin-top: 235px;
+    margin-top: 240px;
     z-index: 1;
     border: 10px solid var(--turners-blue);
     display: flex;
@@ -109,7 +109,7 @@
 /*   parent-div for all content inside the car info page   */
 
 .car-stock {
-    width: 1302px;
+    width: 1303px;
     height: 600px;
     margin: 0 auto;
     border: 10px solid var(--turners-blue);
@@ -382,9 +382,12 @@ select:hover {
     background-color: maroon;
     margin-right: 27px;
     margin-top: 60px;
+    outline: none;
+    border: 2px solid black;
 
 
 }
+
 
 .checkbox {
     accent-color: white;
@@ -477,4 +480,21 @@ select:hover {
 }
 
 
-/*   MAKING THE SECOND BUTTON DIV THAT WILL BE AUTOMATICALLY HIDDEN  */
+#premium-button {
+    background-color: #0073cf;
+    outline: none;
+    border: 2px solid rgb(42, 40, 40);
+
+}
+
+#premium-button:hover {
+    background-color: maroon;
+    color: white;
+    transition: 0.5s ease;
+}
+
+#submit-button:hover {
+    background-color: maroon;
+    color: white;
+    transition: 0.5s ease;
+}

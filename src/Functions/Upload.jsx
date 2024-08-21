@@ -67,7 +67,12 @@ const ImageUploader = () => {
 
         reader.readAsArrayBuffer(file); // Read the file as an ArrayBuffer
     };
-
+        
+        const [value, setValue] = useState(0)
+        const getRandomNumber = (min, max) => {
+         setValue(Math.random() * (max - min) + min);
+       }
+    
     return (
         <>
             <div className='uploading-image-parent-div'>
@@ -89,6 +94,7 @@ const ImageUploader = () => {
                         <h2>Vehicle Type Prediction</h2>
                         <h3>This is still in the testing phase so results may vary</h3>
                         <p ref={predictionResultRef}>{`Your vehicle type is: `}</p>
+                        <p>{`Your insurance premium will be: $${value}`}</p><button id='premium-button' onClick={() => getRandomNumber(2, 500)}>Calculate Premium</button>
                     </div>
                 </div>
             </div>
