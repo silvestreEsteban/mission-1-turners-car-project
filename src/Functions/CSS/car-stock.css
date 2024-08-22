@@ -498,3 +498,7 @@ select:hover {
     color: white;
     transition: 0.5s ease;
 }
+
+#ex-lease {
+    margin-left: -10px;
+}

@@ -1,4 +1,4 @@
-import './Upload.css'
+import './CSS/Upload.css'
 import { useState, useRef } from 'react'
 const API_KEY = import.meta.env.VITE_VISION_PREDICTION_KEY
 const ENDPOINT = import.meta.env.VITE_VISION_PREDICTION_ENDPOINT

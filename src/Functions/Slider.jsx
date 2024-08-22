@@ -1,4 +1,4 @@
-import './Slider.css'
+import './CSS/Slider.css'
 import { useState } from 'react'
 import image1 from './Slider-Images/Supra2.jpg'
 import image2 from './Slider-Images/MclarenSenna.jpg'

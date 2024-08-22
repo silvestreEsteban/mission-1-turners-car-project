@@ -1,4 +1,4 @@
-import './FinalSection.css'
+import './CSS/FinalSection.css'
 
 export default function FinalSection() {
     return (
